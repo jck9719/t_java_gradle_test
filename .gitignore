@@ -12,6 +12,7 @@
 
 # Package Files #
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.war
 *.nar
 *.ear
@@ -23,7 +24,7 @@
 hs_err_pid*
 
 # Ignore Gradle project-specific cache directory
-.gradle
+!.gradle
 
 # Ignore Gradle build output directory
 build
