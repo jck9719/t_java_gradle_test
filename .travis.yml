@@ -1,9 +1,5 @@
 language: java
-install: true
-
-os: linux
-dist: trusty
 jdk: openjdk11
 
-script:
-  gradle build jacocotestReport
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
