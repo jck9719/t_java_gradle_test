@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gradle-6.2.2-all">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-6.2.2-all.zip!/" />
+    </SOURCES>
+  </library>
+</component>
